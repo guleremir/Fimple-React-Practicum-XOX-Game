@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XOX Game With JavaScript</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="shortcut icon" href="./img/xox.jpg" />
+  </head>
+
+  <body>
+    <h1>XoX Game</h1>
+    <h2 id="player"></h2>
+    <div class="game-container">
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+    </div>
+    <button
+      onClick="window.location.reload();"
+      data-text="Awesome"
+      class="button"
+    >
+      <span class="actual-text">&nbsp;Restart&nbsp;</span>
+      <span class="hover-text" aria-hidden="true">&nbsp;Restart&nbsp;</span>
+    </button>
+
+    <p id="error"></p>
+
+    <script src="app.js"></script>
+  </body>
+</html>
